@@ -1,25 +1,121 @@
 @import url("https://fonts.googleapis.com/css2?family=Jua&family=PT+Sans:ital,wght@1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
-header {
-  background-image: url(../sfondo.jpg);
-  background-size: cover;
-  height: 700px;
-}
-header img {
-  height: 300px;
-}
-
 html, body {
   margin: 0px;
   padding: 0px;
 }
 
+.body {
+  background-color: grey;
+}
+
 nav {
+  background-color: orange;
   height: 100px;
-  padding: 20px;
-  position: fixed;
-  top: 0px;
+}
+nav li:hover {
+  cursor: pointer;
+}
+nav li:hover a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.icons svg {
+  margin-left: 20px;
+}
+.icons svg:hover {
+  cursor: pointer;
+  width: 20px;
+  height: 25px;
+}
+
+.header {
   width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: rgb(243, 221, 113);
+}
+
+.container1 {
+  background-image: url(../sfondo.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin-top: 100px;
+}
+
+.container1-text h1 {
+  font-size: 60px;
+  font-family: "Jua", sans-serif;
+}
+
+.carousel-inner carousel-item img {
+  height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h2 {
+  font-family: "Jua", sans-serif;
+}
+
+footer {
+  height: 200px;
+  background-color: orange;
+}
+
+.button-3 {
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  text-decoration: none;
+  box-shadow: 5px 5px 20px #524b4b;
+}
+.button-3:hover {
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 8px 8px 20px #0a0a0a;
+}
+
+.footer-menu h5 {
+  font-family: "Jua", sans-serif;
+}
+.footer-menu ul {
+  width: 100%;
+  padding: 0px;
+  list-style-type: none;
+}
+.footer-menu ul li a {
+  text-decoration: none !important;
+  color: black;
+}
+
+.button-1 {
+  background-color: orange;
+  width: 150px;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  box-shadow: 5px 5px 20px #524b4b;
+}
+.button-1:hover {
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 8px 8px 20px #0a0a0a;
+}
+
+.button-2 {
+  background-color: orange;
+  width: 70px;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  box-shadow: 5px 5px 20px #524b4b;
+}
+.button-2:hover {
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 8px 8px 20px #0a0a0a;
 }/*# sourceMappingURL=app.css.map */

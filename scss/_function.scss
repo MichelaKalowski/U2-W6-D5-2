@@ -1,0 +1,10 @@
+@mixin main-layout($dark:false){
+    @if $dark{
+        background-color: black;
+        color: white;
+    }
+    @else{
+        background-color: white;
+        color: black;
+    }
+}

@@ -1,10 +1,20 @@
-header{
+.header{
+    
+    width: 100%;
+    
+    
+}
+.container1{
     background-image: url(../sfondo.jpg);
     background-size: cover;
-    height: 700px;
+    background-position: center;
+    height: 400px;
+    margin-top: 100px;
    
-    img{
-        height: 300px;
-    };
-    
+}
+.container1-text h1{
+    font: {
+        size:60px;
+    family: 'Jua', sans-serif;
+}
 }
