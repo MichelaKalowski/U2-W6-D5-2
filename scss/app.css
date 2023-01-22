@@ -12,6 +12,7 @@ nav {
   background-color: orange;
   height: 100px;
 }
+
 nav li:hover {
   cursor: pointer;
 }
